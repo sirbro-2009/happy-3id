@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+
+}
+*{
+font-family: 'Lalezar';
+}
+.imgDiv{
+display: flex;
+justify-content: center;
+margin: 100px auto;
+text-align: center;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+h1{
+    text-align: center;
+}
+.boxDiv{
+display: block;
+}
+video{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    margin: 0;
+    filter: blur(20px);
+    display: none;
+}
+h2{
+    text-align: center;
+}
