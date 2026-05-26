@@ -20,7 +20,7 @@ $.querySelector("video").style.display = 'block'
 setTimeout(() => {
 $.querySelector("video").style.filter = 'blur(0px)'
 $.querySelector("video").play()
-$.getElementById("theTitle").innerHTML = 'يتمنى لكم نادينا عيد مبارك'
+$.getElementById("theTitle").innerHTML = 'عيد مبارك'
 $.querySelector("h2").textContent = 'عيد مبارك ,علينا و عليكم ان شاء الله'
 }, 8000);
 }
